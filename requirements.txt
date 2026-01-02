@@ -1,0 +1,45 @@
+# Core NLP Libraries
+transformers>=4.36.0,<5.0.0
+torch>=2.1.0,<3.0.0
+spacy>=3.7.0,<4.0.0
+
+# Medical NLP Models (optional but recommended)
+scispacy>=0.5.3
+
+# Utilities
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+nltk>=3.8.0
+scikit-learn>=1.3.0
+
+# JSON handling
+jsonschema>=4.19.0
+
+# Progress bars and CLI utilities
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Text processing
+regex>=2023.10.0
+
+# For logging
+python-dateutil>=2.8.0
+
+# Optional: Accelerated inference
+# sentencepiece>=0.1.99  # For T5 models
+# accelerate>=0.24.0     # For faster model loading
+
+# ==========================================
+# INSTALLATION NOTES
+# ==========================================
+# 
+# After installing requirements, run:
+#   python -m spacy download en_core_web_sm
+#
+# Optional (for better medical accuracy):
+#   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_md-0.5.3.tar.gz
+#
+# For GPU support (optional):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# ==========================================re
